@@ -1,3 +1,5 @@
+yum -y groupinstall X11
+
 yum -y install \
 	which file bc bash-completion man \
 	unzip tar patch \
