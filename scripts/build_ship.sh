@@ -1,6 +1,6 @@
 set -e
 yum -y update
-yum -y groupinstall 'Server with GUI'
+yum -y groupinstall  "X Window System"
 yum -y install mesa-libGL mesa-libGL-devel
 yum -y install tigervnc-server vnc
 yum -y install krb5-workstation krb5-libs
